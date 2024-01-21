@@ -3,7 +3,7 @@ $(document).on('click','.send_contact', function(){
 
     /* Whatsapp Settings */
     var walink = 'https://web.whatsapp.com/send',
-        phone = '6285162992597',
+        phone = '6285878680166',
         walink2 = 'Salam Hangat, Saya melihat *Program Duta Dialogika* dan saya tertarik untuk Mendaftar.' + '%0A%0A' 
                 + 'Berikut data diri saya: ',
         text_yes = 'Terkirim.',
