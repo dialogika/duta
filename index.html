@@ -74,22 +74,22 @@
             });
           }
 
-          function SubForm (){
+            function SubForm (){
             $.ajax({
-              url:"https://api.apispreadsheets.com/data/rW8PM7vNTIEtqHUz/",
-              type:"post",
-              data:$("#myForm").serializeArray(),
-              headers:{
-                accessKey: "6df7b75d348bfbdfa9684dfc76ed0053",
-                secretKey: "68a998592183dc30cdc2b07576759f04"},
-              success: function(){
-                alert("Anda Telah Mendaftar :)")
-              },
-              error: function(){
-                alert("There was an error :(")
-              }
+                url:"https://api.apispreadsheets.com/data/rW8PM7vNTIEtqHUz/",
+                type:"post",
+                data:$("#myForm").serializeArray(),
+                headers:{
+                    accessKey: "566d93fea316319af7f2de2e675d0931",
+                    secretKey: "30b6520b42d8834cd624a6086b36414d"},
+                success: function(){
+                    alert("Form Data Submitted :)")
+                },
+                error: function(){
+                    alert("There was an error :(")
+                }
             });
-          }
+        }
 
           function Subcription() {
             $.ajax({
@@ -536,9 +536,6 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
 
                   <button type="submit" id="submits" onclick="SubForm()" class="send_contact">Send Application</button>
 
@@ -619,7 +616,7 @@
                       <option id="timestamp"></option>
                     </select>
                  </div>
-                 <button class="custom-btn2 send_contact" id="submits" onclick="HeroForm()">Daftar Sekarang</button>
+                 <button class="custom-btn2 send_contact" id="submitsa" onclick="HeroForm()">Daftar Sekarang</button>
               </form>
            </div>
         </div>
