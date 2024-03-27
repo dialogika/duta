@@ -68,8 +68,7 @@ class Header extends HTMLElement {
           </li>
           <li><a class="nav-link scrollto" href="../corporate/">Corporate</a></li>
           <li><a class="nav-link scrollto" href="../event/">Event</a></li>
-          <li><a class="nav-link scrollto" href="../service/">Services</a></li>
-          <li><a class="nav-link scrollto" href="../shop/">Shop</a></li>
+          
           <li><a class="nav-link scrollto" href="../blog/">Blog</a></li>
         </ul>
         <i class="bi bi-list d-block d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"></i>
@@ -164,18 +163,7 @@ class Header extends HTMLElement {
               <!-- <span class="badge bg-info rounded-pill">New</span> -->
             </div>
           </div></a>
-          <a href="../service/" onclick="return false;"><div class="card card-body">
-            <div class="justify-content-between d-flex">
-              <span>Service </span>
-              <span class="badge bg-warning rounded-pill">Coming Soon</span>
-            </div>
-          </div></a>
-          <a href="../shop/" onclick="return false;"><div class="card card-body">
-            <div class="justify-content-between d-flex">
-              <span>Shop </span>
-              <span class="badge bg-warning rounded-pill">Coming Soon</span>
-            </div>
-          </div></a>
+         
           <a href="../blog/"><div class="card card-body">Blog</div></a>
         </div>
       </div>
